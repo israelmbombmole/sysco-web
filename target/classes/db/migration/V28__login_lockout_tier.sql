@@ -1,1 +1,0 @@
-ALTER TABLE users ADD COLUMN login_lockout_tier INT DEFAULT 0 NOT NULL;
