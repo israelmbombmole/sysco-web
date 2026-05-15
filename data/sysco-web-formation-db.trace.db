@@ -1,0 +1,9 @@
+2026-05-12 10:08:41.850947+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "flyway_schema_history" not found (this database is empty); SQL statement:
+SELECT COUNT(*) FROM "flyway_schema_history" WHERE success = TRUE AND installed_rank > 0 [42104-224]
+2026-05-12 10:08:41.853168+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "flyway_schema_history" not found (this database is empty); SQL statement:
+SELECT COUNT(*) FROM "flyway_schema_history" WHERE success IS NOT TRUE AND installed_rank > 0 [42104-224]
+2026-05-12 10:08:41.854164+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "sous_directions" not found (this database is empty); SQL statement:
+SELECT COUNT(*) FROM sous_directions [42104-224]
